@@ -1,0 +1,137 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\wwwroot\\Img\\1.jpg",
+      "PackagePath": "staticwebassets\\Img\\1.jpg"
+    },
+    {
+      "Id": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\wwwroot\\Img\\10.jpg",
+      "PackagePath": "staticwebassets\\Img\\10.jpg"
+    },
+    {
+      "Id": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\wwwroot\\Img\\11.jpg",
+      "PackagePath": "staticwebassets\\Img\\11.jpg"
+    },
+    {
+      "Id": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\wwwroot\\Img\\12.jpg",
+      "PackagePath": "staticwebassets\\Img\\12.jpg"
+    },
+    {
+      "Id": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\wwwroot\\Img\\13.jpg",
+      "PackagePath": "staticwebassets\\Img\\13.jpg"
+    },
+    {
+      "Id": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\wwwroot\\Img\\14.jpg",
+      "PackagePath": "staticwebassets\\Img\\14.jpg"
+    },
+    {
+      "Id": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\wwwroot\\Img\\15.jpg",
+      "PackagePath": "staticwebassets\\Img\\15.jpg"
+    },
+    {
+      "Id": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\wwwroot\\Img\\16.jpg",
+      "PackagePath": "staticwebassets\\Img\\16.jpg"
+    },
+    {
+      "Id": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\wwwroot\\Img\\17.jpg",
+      "PackagePath": "staticwebassets\\Img\\17.jpg"
+    },
+    {
+      "Id": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\wwwroot\\Img\\18.jpg",
+      "PackagePath": "staticwebassets\\Img\\18.jpg"
+    },
+    {
+      "Id": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\wwwroot\\Img\\19.jpg",
+      "PackagePath": "staticwebassets\\Img\\19.jpg"
+    },
+    {
+      "Id": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\wwwroot\\Img\\2.jpg",
+      "PackagePath": "staticwebassets\\Img\\2.jpg"
+    },
+    {
+      "Id": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\wwwroot\\Img\\3.jpg",
+      "PackagePath": "staticwebassets\\Img\\3.jpg"
+    },
+    {
+      "Id": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\wwwroot\\Img\\4.jpg",
+      "PackagePath": "staticwebassets\\Img\\4.jpg"
+    },
+    {
+      "Id": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\wwwroot\\Img\\5.jpg",
+      "PackagePath": "staticwebassets\\Img\\5.jpg"
+    },
+    {
+      "Id": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\wwwroot\\Img\\6.jpg",
+      "PackagePath": "staticwebassets\\Img\\6.jpg"
+    },
+    {
+      "Id": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\wwwroot\\Img\\7.jpg",
+      "PackagePath": "staticwebassets\\Img\\7.jpg"
+    },
+    {
+      "Id": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\wwwroot\\Img\\8.jpg",
+      "PackagePath": "staticwebassets\\Img\\8.jpg"
+    },
+    {
+      "Id": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\wwwroot\\Img\\9.jpg",
+      "PackagePath": "staticwebassets\\Img\\9.jpg"
+    },
+    {
+      "Id": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\wwwroot\\Img\\Capture.PNG",
+      "PackagePath": "staticwebassets\\Img\\Capture.PNG"
+    },
+    {
+      "Id": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\wwwroot\\Img\\Group 2969.png",
+      "PackagePath": "staticwebassets\\Img\\Group 2969.png"
+    },
+    {
+      "Id": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\wwwroot\\Img\\img_1.jpeg",
+      "PackagePath": "staticwebassets\\Img\\img_1.jpeg"
+    },
+    {
+      "Id": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\wwwroot\\uploads\\Capture.PNG",
+      "PackagePath": "staticwebassets\\uploads\\Capture.PNG"
+    },
+    {
+      "Id": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\wwwroot\\uploads\\JSCertificate.png",
+      "PackagePath": "staticwebassets\\uploads\\JSCertificate.png"
+    },
+    {
+      "Id": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\wwwroot\\uploads\\img_2.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\img_2.jpeg"
+    },
+    {
+      "Id": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\wwwroot\\uploads\\img_4.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\img_4.jpeg"
+    },
+    {
+      "Id": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\wwwroot\\uploads\\img_5.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\img_5.jpeg"
+    },
+    {
+      "Id": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\wwwroot\\uploads\\img_6.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\img_6.jpeg"
+    },
+    {
+      "Id": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\wwwroot\\uploads\\mariemomran.github.io_Ecommerce_Pure_Js_html_contact_us.html.png",
+      "PackagePath": "staticwebassets\\uploads\\mariemomran.github.io_Ecommerce_Pure_Js_html_contact_us.html.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Project_Angular.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Project_Angular.props",
+      "PackagePath": "build\\Project_Angular.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Project_Angular.props",
+      "PackagePath": "buildMultiTargeting\\Project_Angular.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Project_Angular.props",
+      "PackagePath": "buildTransitive\\Project_Angular.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

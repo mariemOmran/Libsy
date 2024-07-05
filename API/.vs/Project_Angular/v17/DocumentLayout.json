@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\labs-intak\\Libsy\\API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{79C126D8-E277-4A33-8AFE-1401ECD97499}|Project_Angular\\Project_Angular.csproj|e:\\labs-intak\\libsy\\api\\project_angular\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C126D8-E277-4A33-8AFE-1401ECD97499}|Project_Angular\\Project_Angular.csproj|solutionrelative:project_angular\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Project_Angular\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Project_Angular\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAkwDMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T19:18:44.308Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
