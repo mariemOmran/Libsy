@@ -5,6 +5,26 @@
     {
       "AbsoluteMoniker": "D:0:0:{79C126D8-E277-4A33-8AFE-1401ECD97499}|Project_Angular\\Project_Angular.csproj|e:\\labs-intak\\libsy\\api\\project_angular\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79C126D8-E277-4A33-8AFE-1401ECD97499}|Project_Angular\\Project_Angular.csproj|solutionrelative:project_angular\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C126D8-E277-4A33-8AFE-1401ECD97499}|Project_Angular\\Project_Angular.csproj|e:\\labs-intak\\libsy\\api\\project_angular\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C126D8-E277-4A33-8AFE-1401ECD97499}|Project_Angular\\Project_Angular.csproj|solutionrelative:project_angular\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C126D8-E277-4A33-8AFE-1401ECD97499}|Project_Angular\\Project_Angular.csproj|e:\\labs-intak\\libsy\\api\\project_angular\\dto\\pagingproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C126D8-E277-4A33-8AFE-1401ECD97499}|Project_Angular\\Project_Angular.csproj|solutionrelative:project_angular\\dto\\pagingproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C126D8-E277-4A33-8AFE-1401ECD97499}|Project_Angular\\Project_Angular.csproj|e:\\labs-intak\\libsy\\api\\project_angular\\models\\productfilterationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C126D8-E277-4A33-8AFE-1401ECD97499}|Project_Angular\\Project_Angular.csproj|solutionrelative:project_angular\\models\\productfilterationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C126D8-E277-4A33-8AFE-1401ECD97499}|Project_Angular\\Project_Angular.csproj|e:\\labs-intak\\libsy\\api\\project_angular\\models\\ecommercecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C126D8-E277-4A33-8AFE-1401ECD97499}|Project_Angular\\Project_Angular.csproj|solutionrelative:project_angular\\models\\ecommercecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C126D8-E277-4A33-8AFE-1401ECD97499}|Project_Angular\\Project_Angular.csproj|e:\\labs-intak\\libsy\\api\\project_angular\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C126D8-E277-4A33-8AFE-1401ECD97499}|Project_Angular\\Project_Angular.csproj|solutionrelative:project_angular\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +34,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PagingProducts.cs",
+              "DocumentMoniker": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\DTO\\PagingProducts.cs",
+              "RelativeDocumentMoniker": "Project_Angular\\DTO\\PagingProducts.cs",
+              "ToolTip": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\DTO\\PagingProducts.cs",
+              "RelativeToolTip": "Project_Angular\\DTO\\PagingProducts.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T14:28:35.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductFilterationModel.cs",
+              "DocumentMoniker": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\Models\\ProductFilterationModel.cs",
+              "RelativeDocumentMoniker": "Project_Angular\\Models\\ProductFilterationModel.cs",
+              "ToolTip": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\Models\\ProductFilterationModel.cs",
+              "RelativeToolTip": "Project_Angular\\Models\\ProductFilterationModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T13:44:21.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Project_Angular\\Controllers\\ProductsController.cs",
+              "ToolTip": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Project_Angular\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAYwAwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T13:43:37.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ImagesController.cs",
+              "DocumentMoniker": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\Controllers\\ImagesController.cs",
+              "RelativeDocumentMoniker": "Project_Angular\\Controllers\\ImagesController.cs",
+              "ToolTip": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\Controllers\\ImagesController.cs",
+              "RelativeToolTip": "Project_Angular\\Controllers\\ImagesController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAiwBcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T13:35:32.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EcommerceContext.cs",
+              "DocumentMoniker": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\Models\\EcommerceContext.cs",
+              "RelativeDocumentMoniker": "Project_Angular\\Models\\EcommerceContext.cs",
+              "ToolTip": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\Models\\EcommerceContext.cs",
+              "RelativeToolTip": "Project_Angular\\Models\\EcommerceContext.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAowB4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T12:18:37.496Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -28,7 +113,7 @@
               "RelativeDocumentMoniker": "Project_Angular\\Controllers\\AccountController.cs",
               "ToolTip": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Project_Angular\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAkwDMAAAANAAAA",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAvwDwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-05T19:18:44.308Z",
               "EditorCaption": ""

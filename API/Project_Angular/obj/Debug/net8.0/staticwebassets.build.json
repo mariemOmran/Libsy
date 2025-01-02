@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Lt2uxsBywZ61by1+ZqKcf5Q7EDyb8j9CDDvHo3nkNY4=",
+  "Hash": "uATrLRnwBm/uVnQOrK37DVPcV01XJjTWxEtji1GHaX8=",
   "Source": "Project_Angular",
   "BasePath": "_content/Project_Angular",
   "Mode": "Default",
@@ -433,6 +433,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Img\\img_1.jpeg"
+    },
+    {
+      "Identity": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\wwwroot\\Img\\istockphoto-1219723342-1024x1024.jpg",
+      "SourceId": "Project_Angular",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\wwwroot\\",
+      "BasePath": "_content/Project_Angular",
+      "RelativePath": "Img/istockphoto-1219723342-1024x1024.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\istockphoto-1219723342-1024x1024.jpg"
     },
     {
       "Identity": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\wwwroot\\uploads\\Capture.PNG",

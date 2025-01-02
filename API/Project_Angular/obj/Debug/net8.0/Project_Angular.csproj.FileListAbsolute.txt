@@ -428,3 +428,4 @@ E:\labs-intak\Libsy\API\Project_Angular\obj\Debug\net8.0\refint\Project_Angular.
 E:\labs-intak\Libsy\API\Project_Angular\obj\Debug\net8.0\Project_Angular.pdb
 E:\labs-intak\Libsy\API\Project_Angular\obj\Debug\net8.0\Project_Angular.genruntimeconfig.cache
 E:\labs-intak\Libsy\API\Project_Angular\obj\Debug\net8.0\ref\Project_Angular.dll
+E:\labs-intak\Libsy\API\Project_Angular\obj\Debug\net8.0\Project_Angular.sourcelink.json

@@ -89,6 +89,10 @@
       "PackagePath": "staticwebassets\\Img\\img_1.jpeg"
     },
     {
+      "Id": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\wwwroot\\Img\\istockphoto-1219723342-1024x1024.jpg",
+      "PackagePath": "staticwebassets\\Img\\istockphoto-1219723342-1024x1024.jpg"
+    },
+    {
       "Id": "E:\\labs-intak\\Libsy\\API\\Project_Angular\\wwwroot\\uploads\\Capture.PNG",
       "PackagePath": "staticwebassets\\uploads\\Capture.PNG"
     },
