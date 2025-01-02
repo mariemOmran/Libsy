@@ -54,7 +54,17 @@ namespace Project_Angular.Controllers
         {
             
             IQueryable<Clothes> clothes = uniteOfwork.Clothes.GetAllIncluding(n => n.brand, n => n.category);
-            clothes.Where(n => filter.Categories.Contains(n.category.Name) && filter.Brands.Contains(n.category.Name));
+            if (filter.Categories.Count() != 0 && filter.Brands.Count() != 0)
+            {
+                clothes = clothes.Where(n => filter.Categories.Contains(n.category.Id) || filter.Brands.Contains(n.brand.Id));
+            }
+            else if (filter.Categories.Count() != 0) {
+                clothes = clothes.Where(n =>  filter.Categories.Contains(n.brand.Id));
+            }
+            else if(filter.Brands.Count() != 0) {
+                clothes = clothes.Where(n => filter.Brands.Contains(n.brand.Id));
+            }
+            int countAllClothes = clothes.Count();
             clothes = clothes.Skip((filter.PageNumber-1)*filter.PageSize).Take(filter.PageSize);
             
             List<ProductsWihtCateNameDTO> pdto = new List<ProductsWihtCateNameDTO>();
@@ -76,7 +86,15 @@ namespace Project_Angular.Controllers
                 pdto.Add(productsWithCategoryNameDTO);
             }
 
-            return Ok(pdto);
+            PagingProducts result = new PagingProducts
+            {
+
+                products = pdto,
+                pageNumber = filter.PageNumber,
+                PageSize = countAllClothes / filter.PageSize
+            };
+
+            return Ok(result);
         }
 
 

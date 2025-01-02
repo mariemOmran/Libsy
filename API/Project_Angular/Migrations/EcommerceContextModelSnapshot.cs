@@ -50,6 +50,23 @@ namespace Project_Angular.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("AspNetRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "Admin"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "User"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "Merchant"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
@@ -134,6 +151,18 @@ namespace Project_Angular.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("AspNetUserRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            UserId = 1,
+                            RoleId = 1
+                        },
+                        new
+                        {
+                            UserId = 2,
+                            RoleId = 3
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<int>", b =>
@@ -225,6 +254,40 @@ namespace Project_Angular.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            AccessFailedCount = 0,
+                            Address = "cario",
+                            ConcurrencyStamp = "a4c269d1-cc1d-46b3-85d2-3136569d54d6",
+                            Email = "admin@gmail.com",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "ADMIN@GMAIL.COM",
+                            NormalizedUserName = "ADMIN",
+                            PasswordHash = "AQAAAAIAAYagAAAAELgKOOsIhezLZ6OVmx9ykeyTa1jvwEpYF7c20yaJUxHNWfW+//umU6Hz+qDf+iOzKA==",
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Admin"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            AccessFailedCount = 0,
+                            Address = "cario",
+                            ConcurrencyStamp = "95a7fa63-6351-4aa9-83ff-d553cf20d3ee",
+                            Email = "merchant@gmail.com",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "MERCHANT@GMAIL.COM",
+                            NormalizedUserName = "MERCHANT",
+                            PasswordHash = "AQAAAAIAAYagAAAAEGuvCXxp/Da4QJS2UKMv7NzXhSXdbpUEJB5/IdLPDzlTJhZiG2UoV5ISdRM0XLO+wA==",
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Merchant"
+                        });
                 });
 
             modelBuilder.Entity("Project_Angular.Models.Brand", b =>

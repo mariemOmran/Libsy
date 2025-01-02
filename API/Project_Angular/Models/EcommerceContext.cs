@@ -22,8 +22,53 @@ namespace Project_Angular.Models
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
+            var hasher = new PasswordHasher<ApplicationUser>();
             base.OnModelCreating(builder);
             builder.Entity<order_details>().HasKey(x => new{x.orderID,x.clothesID});
+            builder.Entity<IdentityRole<int>>().HasData(new IdentityRole<int> { 
+            Id = 1,
+            Name="Admin",
+            NormalizedName="ADMIN"
+            },
+            new IdentityRole<int> {
+                Id = 2,
+                Name = "User",
+                NormalizedName="USER"
+            },
+            new IdentityRole<int>
+            {
+                Id = 3,
+                Name = "Merchant",
+                NormalizedName="MERCHANT"
+            });
+            builder.Entity<ApplicationUser>().HasData(new ApplicationUser { 
+                Id= 1,
+                UserName="Admin",
+                NormalizedUserName="ADMIN",
+                Email = "admin@gmail.com",
+                NormalizedEmail="ADMIN@GMAIL.COM",
+                PasswordHash= hasher.HashPassword(null,"1"),
+                Address = "cario"
+
+            }, new ApplicationUser
+            {
+                Id = 2,
+                UserName = "Merchant",
+                NormalizedUserName="MERCHANT",
+                NormalizedEmail="MERCHANT@GMAIL.COM",
+                Email = "merchant@gmail.com",
+                PasswordHash = hasher.HashPassword(null, "1"),
+                Address ="cario"
+
+            });
+            builder.Entity<IdentityUserRole<int>>().HasData(new IdentityUserRole<int> { 
+                UserId= 1,
+                RoleId= 1,
+            }, new IdentityUserRole<int>
+            {
+                UserId =2,
+                RoleId = 3,
+            });
         }
 
     }

@@ -21,7 +21,7 @@ namespace Project_Angular.Controllers
             if (System.IO.File.Exists(imagePath))
             {
                 var imageStream = System.IO.File.OpenRead(imagePath);
-                return File(imageStream, "image/jpeg"); // Adjust content type based on your image type
+                return File(imageStream, "img/jpeg"); // Adjust content type based on your image type
             }
             else
             {

@@ -60,14 +60,14 @@ namespace Project_Angular.Controllers
         public async Task<IActionResult> Login(UserLoginDTO userDto)
         {
            
-            ApplicationUser userAp = await _UserManager.FindByNameAsync(userDto.userName);
+            ApplicationUser userAp = await _UserManager.FindByNameAsync(userDto.UserName);
             if (userAp!=null)
             {
-            bool found =   await  _UserManager.CheckPasswordAsync(userAp, userDto.password);
+            bool found =   await  _UserManager.CheckPasswordAsync(userAp, userDto.Password);
 
                 if (found) { 
                 List<Claim> claims = new List<Claim>();
-                claims.Add(new Claim("userName", userDto.userName));
+                claims.Add(new Claim("userName", userDto.UserName));
 
                 var secrite = new SymmetricSecurityKey(Encoding.ASCII.GetBytes("i am mairem graduated from factly of commerce al azhar university "));
                 var signCirdintional = new SigningCredentials(secrite, SecurityAlgorithms.HmacSha256);
